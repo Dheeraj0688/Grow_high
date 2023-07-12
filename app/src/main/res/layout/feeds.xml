@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/bluestatusbar"
+        android:layout_width="414dp"
+        android:layout_height="261dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/background" />
+
+    <ImageView
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/iphone_x__or_newer_" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="358.19dp"
+        android:layout_height="59.91dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="158dp"
+        android:background="@drawable/form"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+<ImageView
+    android:layout_width="23.75dp"
+    android:layout_height="23.75dp"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    android:layout_marginTop="175.81dp"
+    android:layout_marginStart="43.8dp"
+    android:background="@drawable/search"
+    />
+
+    <TextView
+        android:layout_width="125dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="57dp"
+        android:text="Hello, Dheeraj"
+        android:textColor="@color/white"
+        android:textSize="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+<ImageView
+    android:layout_width="36dp"
+    android:layout_height="36dp"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginTop="71dp"
+    android:layout_marginEnd="40dp"
+    android:background="@drawable/ellipse_193"/>
+
+    <TextView
+        android:layout_width="95dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="283dp"
+        android:text="Browse By "
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:layout_width="96dp"
+        android:layout_height="21dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="321dp"
+        android:layout_marginStart="25dp"
+        android:background="@drawable/rectangle_1"/>
+    <TextView
+        android:layout_width="31dp"
+        android:layout_height="15dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="324dp"
+        android:layout_marginStart="57dp"
+        android:text="Latest"
+        android:textSize="11dp"
+        android:textAlignment="center"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="96dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="143dp"
+        android:layout_marginTop="321dp"
+        android:background="@drawable/rectangle_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:layout_width="31dp"
+        android:layout_height="15dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="324dp"
+        android:layout_marginStart="175dp"
+        android:text="Older"
+        android:textSize="11dp"
+        android:textAlignment="center"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="425dp"
+        android:layout_height="354dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
